@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: "Manrope", sans-serif;
         }
     </style>
@@ -19,7 +19,7 @@
 
 <body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
-        <header class="flex pt-10 mb-20">
+        <header class="md:flex lg:flex pt-10 mb-20">
             <div>
                 <h1 class="text-5xl md:text-7xl">It's good <br>
                     tea time at The <br> Tea House</h1><br>
@@ -39,7 +39,8 @@
                 <div>
                     <img class="w-full" src="images/banner.png" alt="">
                 </div>
-                <div class="flex absolute items-center bg-white drop-shadow-lg px-5 py-5 md:px10 lg:py-4 rounded-xl top-28 md:top-80 md:left-32 lg:left-28">
+                <div
+                    class="flex absolute items-center bg-white drop-shadow-lg px-5 py-5 md:px10 lg:py-4 rounded-xl top-28 md:top-80 md:left-32 lg:left-28">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6 text-yellow-500">
@@ -56,6 +57,50 @@
             </div>
 
         </header>
+        <!-- Featured Products section  -->
+        <section class="py-8 lg:py-24">
+            <div class="space-y-5 text-center mb-8 mx-auto">
+                <h2 class="font-extrabold text-3xl text-[#1C1C1C] md:text-5xl">Our Featured Products</h2>
+                <p class="font-medium text-xs text-[#777777]">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered
+                    alteration in some form, <br> by injected humour, or randomised words which don't look even slightly
+                    believable. </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                <!-- products card 1-->
+                <div class="rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+                    <img class="mx-auto pt-8" src="images/tea-1.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-extrabold text-2xl text-[#1C1C1C]">Milk Tea</h2>
+                        <p class="font-semibold text-xs text-[#777777]">Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+                <!-- products card2 -->
+                <div class="rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+                    <img class="mx-auto pt-8" src="images/tea-2.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-extrabold text-2xl text-[#1C1C1C]">Black Tea</h2>
+                        <p class="font-semibold text-xs text-[#777777]">Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+                <!-- products card 3-->
+                <div class="rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+                    <img class="mx-auto pt-8" src="images/tea-3.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-extrabold text-2xl text-[#1C1C1C]">Lemon Tea</h2>
+                        <p class="font-semibold text-xs text-[#777777]">Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+                <!-- products card4 -->
+                <div class="rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+                    <img class="mx-auto pt-8" src="images/tea-4.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-extrabold text-2xl text-[#1C1C1C]">Green Tea</h2>
+                        <p class="font-semibold text-xs text-[#777777]">Creamer could be replaced <br> by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
